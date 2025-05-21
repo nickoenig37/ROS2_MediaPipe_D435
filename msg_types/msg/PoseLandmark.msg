@@ -1,0 +1,3 @@
+int32 landmark_id
+geometry_msgs/Point point
+float32 visibility
