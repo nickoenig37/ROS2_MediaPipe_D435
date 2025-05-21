@@ -23,6 +23,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PoseLandmark.msg"
   "msg/PoseLandmarks.msg"
   "msg/Pose.msg"
+  "msg/FaceLandmarks.msg"
+  "msg/Face.msg"
   DEPENDENCIES builtin_interfaces std_msgs geometry_msgs
 )
 
