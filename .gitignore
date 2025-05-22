@@ -1,4 +1,10 @@
+# Python cache files
 *.pyc
-*__pycache__/
-*.vscode/
-*pyc
+*.pyo
+__pycache__/
+
+# VSCode
+.vscode/
+
+# Ignore all __pycache__ folders recursively
+**/__pycache__/
